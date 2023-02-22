@@ -1,0 +1,25 @@
+{
+  "name": "bot-ar-online",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js localhost 5432",
+    "dotenv": "^14.3.2",
+    "mongoose": "^6.2.2"
+  },
+  "keywords": [
+    "api",
+    "gateway",
+    "javascript"
+  ],
+  "author": "Ronald Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.9.2",
+    "nodemon": "^1.10.2"
+  }
+}
